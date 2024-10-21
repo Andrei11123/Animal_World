@@ -1,48 +1,63 @@
-body {
+app.css body {
     margin: auto;
     font-family: "Open Sans", sans-serif;
 }
+
+.custom_button:hover {
+    background-color: rgb(62, 230, 20);
+}
+
+.custom_button {
+    font-size: 15px;
+    padding: 5px 10px;
+    background-color: rgba(14, 243, 83, 0.726);
+    border-radius: 20px;
+}
+
 .Mammals {
- background-image: url(imagine/horse.1png.png)
+    background-image: url(imagine/horse.1png.png)
 }
-.Reptiles {
-    background-image: url(imagine/Reptilie.png);
-}
+
 .Animal_World {
- display: block;
- color: green;
- position: relative;
- right: 200px;
- background-color: green;
+    display: block;
+    color: green;
+    position: relative;
+    right: 200px;
 }
+
 .Quick_Srch {
     position: relative;
     left: 200px;
     color: black;
 }
-.top-list, .bottom-list {
+
+.top-list,
+.bottom-list {
     display: flex;
-    list-style: none; 
+    list-style: none;
     text-align: center;
     justify-content: center;
     padding: 0;
-    margin: 0; 
+    margin: 0;
 }
 
 .top-list {
     margin-top: 60px;
-    gap: 20px;
+
 }
+
 .bottom-list {
-    margin-top: 20px; 
+    margin-top: 20px;
     display: flex;
 }
+
 li {
-padding-left: 30px;
-color: gray;
-background-repeat: no-repeat;
-background-position: left center;
+    padding-left: 20px;
+    color: gray;
+    background-repeat: no-repeat;
+    background-position: left center;
 }
+
 .imagine {
     display: flex;
 }

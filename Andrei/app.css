@@ -4,33 +4,42 @@ body {
 }
 
 div {
-    background-color:rgb(152, 229, 231);
+    background-color: rgb(59, 59, 59);
     width: 1400px;
     margin-left: 250px;
 }
 
-.custom_button:hover {
-    background-color: rgb(62, 230, 20);
+.button {
+    background-color: rgb(59, 59, 59);
+    color: greenyellow;
 }
 
-.custom_button {
-    font-size: 15px;
-    padding: 5px 10px;
-    background-color: rgba(14, 243, 83, 0.726);
-    border-radius: 20px;
+.button2:hover {
+    background-color: rgb(66, 65, 65);
+    color: white;
+}
+
+.button1 {
+    background-color: rgb(59, 59, 59);
+    color: rgb(250, 250, 250)
+}
+
+.button1:hover {
+    background-color: rgb(66, 65, 65);
+    color: rgb(0, 0, 0);
 }
 
 .Animal_World {
     display: block;
-    color: green;
     position: relative;
     right: 200px;
+    color: green;
 }
+
 
 .Quick_Srch {
     position: relative;
     left: 200px;
-    color: black;
 }
 
 .top-list,

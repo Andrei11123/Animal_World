@@ -2,45 +2,31 @@ body {
     font-family: "Crimson Text", serif;
 }
 
+/*Bara de sus*/
+
 .categ {
     background-color: rgb(49, 95, 7);
-    width: 1500px;
     margin-left: 200px;
+    margin-right: 200px;
     border-radius: 30px;
 }
 
-.div1 {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    margin-left: 200px;
-    margin-bottom: 200px;
-}
-
-.p1text {
+.Animal_World {
+    margin: 10px;
+    display: block;
     position: relative;
-    font-size: 80px;
-    right: 22px;
-    top: 120px;
-    color: rgb(104, 230, 100);
-    font-family: "Arima", system-ui;
-}
-
-.p2text {
-    position: relative;
-    top: 250px;
-    right: 410px;
-    font-size: 80px;
-    color: rgb(212, 214, 214);
-    font-family: "Arima", system-ui;
+    right: 100px;
+    top: 15px;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
 }
 
 .p1 {
-    font-size: 20px;
+    font-size: 30px;
     color: rgb(104, 230, 100);
 }
 
-.button {
+.buttonCatg {
     background-color: rgb(49, 95, 7);
     color: rgb(241, 245, 236);
 }
@@ -53,7 +39,9 @@ body {
 
 .button1 {
     background-color: rgb(49, 95, 7);
-    color: rgb(250, 250, 250)
+    color: rgb(250, 250, 250);
+    font-size: 24px;
+    border-radius: 20px;
 }
 
 .button1:hover {
@@ -62,17 +50,30 @@ body {
     border-radius: 20px;
 }
 
-.Animal_World {
-    display: block;
+.topnav {
     position: relative;
-    right: 150px;
-    color: rgb(255, 255, 255);
+    left: 50px;
 }
 
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border-radius: 5px;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 20px;
+}
 
-.Quick_Srch {
+.top_list {
     position: relative;
-    left: 200px;
+    right: 120px;
+    top: 20px;
+}
+
+.bottom_list {
+    position: relative;
+    right: 50px;
+    bottom: 25px;
 }
 
 .top-list,
@@ -81,14 +82,12 @@ body {
     list-style: none;
     text-align: center;
     justify-content: center;
-    padding: 0;
-    margin: 0;
+    padding: auto;
+    margin: auto;
 }
 
-
-
 .bottom-list {
-    margin-top: 0px;
+    margin-bottom: auto;
     display: flex;
 }
 
@@ -103,18 +102,69 @@ li {
     display: flex;
 }
 
-.container1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+li {
+    padding-left: 20px;
+    color: gray;
+    background-repeat: no-repeat;
+    background-position: left center;
 }
 
-.item {
-    margin: auto;
-    padding: 10%;
-    border: 1px solid black;
+.imagine {
+    display: flex;
 }
 
-.item-1 {
+
+/*Textul de mai jos de bara*/
+
+.div1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 100px 0 200px 200px;
+}
+
+.p1text {
     position: relative;
-    left: 50px;
+    font-size: 80px;
+    color: rgb(104, 230, 100);
+    font-family: "Arima", system-ui;
+}
+
+.p2text {
+    position: relative;
+    top: 100px;
+    right: 400px;
+    font-size: 80px;
+    color: rgb(212, 214, 214);
+    font-family: "Arima", system-ui;
+}
+
+/* Elementele din boxuri */
+
+.rounded-imagine {
+    border-radius: 20px;
+    background-color: none;
+}
+
+.container1 {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: 180px;
+    gap: 20px;
+    font-family: "Arima", system-ui;
+}
+
+.buttonImg {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Arima", system-ui;
+}
+
+.overlay-text_container1 {
+    position: absolute;
+    color: rgb(3, 3, 3);
+    bottom: 10px;
 }

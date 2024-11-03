@@ -154,7 +154,7 @@ li {
 .container1 {
     position: relative;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     margin: 100px;
     gap: 10px;
     font-family: "Arima", system-ui;
@@ -188,7 +188,17 @@ li {
     left: 185px;
 }
 
-.Blue_bird1 {
-    width: 980px;
+.BoxBluebird {
+    height: 700px;
+    width: 1010px;
 }
 
+.imgFluffy {
+    height: 700px;
+    width: 500px;
+}
+
+.boxfluffy {
+    position: relative;
+    left: 185px;
+}

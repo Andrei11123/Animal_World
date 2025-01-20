@@ -75,6 +75,18 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
+.animal-box3{
+    border: 2px solid #ddd; 
+    display: flex; 
+   position: absolute;
+   height: 200px;
+   bottom: 238px;
+   left: 1075px;
+    width: 500px; 
+    padding: 10px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
 .animal-info {
     flex: 1; 
@@ -98,5 +110,22 @@
     font-size: 1em;
     color: #777;
     margin-top: 5px;
+}
+
+.read-more {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: 0.3s ease;
+    text-align: center; 
+}
+
+.read-more:hover {
+    background-color: #45a049;
 }
 
